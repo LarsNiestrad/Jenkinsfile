@@ -1,5 +1,5 @@
 node {
    echo 'Hello World'
-   Greeter greeter = new Greeter();
+   def greeter = new Greeter();
    greeter.greet();
 }
